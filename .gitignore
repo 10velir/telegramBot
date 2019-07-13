@@ -1,0 +1,8 @@
+*.iws
+*.iml
+*.ipr
+log4j.log
+/target/**
+.idea/
+HELP.md
+!.mvn/wrapper/maven-wrapper.jar
