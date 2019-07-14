@@ -17,12 +17,9 @@ public class Bot extends TelegramLongPollingBot {
             long chat_id = update.getMessage().getChatId();
 
             textMessage = textMessage.toLowerCase();
-            System.out.println("textMessage: " + textMessage);
             ResponseEntity<String> response = restTemplate.getForEntity("http://localhost:8080/description/"
                     + textMessage, String.class);
 
-            System.out.println("statusCodeValue: " + response.getStatusCodeValue());
-            System.out.println("getBody: " + response.getBody());
             if (response.getStatusCodeValue() == 200) {
                 if (response.hasBody()) {
                     textMessage = response.getBody();
