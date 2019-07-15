@@ -45,15 +45,15 @@ VALUES (1, 'Приехав в Венецию, первым делом вы, ск
 
 INSERT INTO city
     (id, name, information_id)
-VALUES (1, 'Minsk', 4),
-       (2, 'Moscow', 5),
-       (3, 'Venice', 1),
-       (4, 'Istanbul', 9),
-       (5, 'Paris', 6),
-       (6, 'Prague', 7),
-       (7, 'New York', 2),
-       (8, 'Rome', 8),
-       (9, 'Amsterdam', 3);
+VALUES (1, 'minsk', 4),
+       (2, 'moscow', 5),
+       (3, 'venice', 1),
+       (4, 'istanbul', 9),
+       (5, 'paris', 6),
+       (6, 'prague', 7),
+       (7, 'new york', 2),
+       (8, 'rome', 8),
+       (9, 'amsterdam', 3);
 
 
 
